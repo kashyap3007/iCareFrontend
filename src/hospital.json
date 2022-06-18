@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "name": "Apollo Hospital",
+    "category": "600 beds available",
+    "priceCents": 13000,
+    "imageColor": "F00",
+    "imageUrl": "https://www.medifee.com/offers/thyrocare/img/apollo-hospital-greams-road-chennai.jpg",
+    "Address": "21, Greams Lane, Off Greams Road, Chennai - 600 006",
+    "description": "Apollo Hospitals, Greams Road is the flagship facility of the Apollo Healthcare group. It has facilities and treatments across a wide spectrum of medical specialties. The high standards of medical-care has ensured a dedicated patient-base from India as well as neighboring countries. The group commands a certain respect and credibility amongst its patients.",
+    "key": "Advanced operation theaters (OTs) and critical care unitsHighly-equipped catheter laboratories / Air ambulance services for patients residing in remotely and poorly connected pockets First hospital in South India to have received HACCP certification by the British Standards Institution .Geared with up over 60 departments, the hospital boasts of a retinue of specialists like cardiologists, general surgeons, ophthalmologists, orthopedic surgeons, fertility experts etc."
+  },
+
+  {
+    "id": 2,
+    "name": "Indraprastha  Hospital",
+    "category": "300 beds available",
+    "priceCents": 7000,
+    "imageColor": "F00",
+    "imageUrl": "https://www.medifee.com/offers/thyrocare/img/indraprasth-hospital.jpg",
+    "Address": "New Delhi",
+    "description": "Indraprashta Apollo Hospital in New Delhi has gained the reputation of being the most sought after health care center for multi disciplinary medical treatment. Spread across 15 acres, this hospital boasts of state of the art equipments and expert doctors for treating various ailments. Standardized process, trained staff and latest technology mark the stand out points for this hospital",
+    "key": "Treatments for 52 specialties available Foremost in India to successfully conduct Liver Transplant (Pediatric)Maximum beds for ICU with regards to private hospitalsBiggest unit for dialysis in India More than 700 beds for patients"
+  },
+  {
+    "id": 3,
+    "name": "Fortis Hospital",
+    "category": "276 beds available",
+    "priceCents": 27400,
+    "imageColor": "F00",
+    "imageUrl": "https://www.medifee.com/offers/thyrocare/img/fortis-hospital.jpg",
+    "Address": "154/9, Bannerghatta Road,Opposite IIM-B, Bengaluru, Karnataka 560076.",
+    "description": "Fortis Hospital at Bannerghatta was established in 2007. Since then it has achieved trust of Bangalore residents along with neighboring parts of Tamil Nadu with the help of its impressive infrastructure. It has earned the ranks of being among the few top multi-specialties in Bangalore in current times.",
+    "key": "276 hospital beds Team of over 150 senior consultants practicing in this facility Treatment facilities available across 40 medical streams The doctors at Bannerghatta are credited in the introduction of custom fit knee replacement and HIFU technology for treatment of prostate cancer India Critical care department that is 24*7 functional The emergency and trauma care department is duly equipped with required life support systems and ACLS trained doctors  Oncology department has treatment facilities for managing different cancer types in adults and children Highly complex procedures like total knee replacement, trans-radial angioplasties etc. performed Sports medicine injuries and orthopedic ailments are managed by an expert team of physiotherapists, orthopedic surgeons and general physicians"
+  },
+  {
+    "id": 4,
+    "name": "Nanavati Hospital",
+    "category": "350 beds available",
+    "priceCents": 114000,
+    "imageColor": "F00",
+    "imageUrl": "https://www.medifee.com/offers/thyrocare/img/dr-balabhai-nanavati-hospital.jpg",
+    "Address": "Nanavati HospitalS.V. Road, Vile Parle (West),Mumbai 400 056,",
+    "description": "Born out of a vision to provide healthcare to all strata of society, Nanavati Super Specialty Hospital, Mumbai opened its doors in 1950 and since has grown strength by strength into one of the most reputed tertiary care hospitals in India. Continuously striving for the best of healthcare at very affordable prices, this hospital uses funds from its trust and provides free medical assistance to the needy. It is equipped with a formidable strength of medical and allied professionals and the latest technology which helps in delivering quality care.",
+    "key": "Located in close proximity to Chhatrapati Shivaji International airport Inpatient capacity of 350 beds Treatment available in 55 medical specialities Round the clock emergency and accident services available Full time pharmacy and laboratory services Conducts health camps across the city and in remote areas of Maharashtra Imaging facilities include MRI scanner, high intensity focused ultrasound, 64 slice PET scan -CT scan with cardiac capability, radiography, etc.Equipped with MR guided focused ultrasound surgery technology Super speciality level treatment solution in disciplines like neurology, nephrology, gynecology, cardiology, gastroenterology, plastic surgery, orthopedics, sports medicine and rehabilitation, etc. Empanelled hospital for various PSUs and private companies"
+  },
+
+  {
+    "id": 5,
+    "name": "PMCH",
+    "category": "1350 beds available",
+    "priceCents": 4000,
+    "imageColor": "F00",
+    "imageUrl": "https://www.medifee.com/offers/thyrocare/img/dr-balabhai-nanavati-hospital.jpg",
+    "Address": "Patna , Bihar ",
+    "description": "PATNA MEDICAL COLLEGE hospital Born out of a vision to provide healthcare to all strata of society, Nanavati Super Specialty Hospital, Mumbai opened its doors in 1950 and since has grown strength by strength into one of the most reputed tertiary care hospitals in India. Continuously striving for the best of healthcare at very affordable prices, this hospital uses funds from its trust and provides free medical assistance to the needy. It is equipped with a formidable strength of medical and allied professionals and the latest technology which helps in delivering quality care.",
+    "key": "Located in close proximity to Patna Bihar Inpatient capacity of 3500 beds Treatment available in 55 medical specialities Round the clock emergency and accident services available Full time pharmacy and laboratory services Conducts health camps across the city and in remote areas of Maharashtra Imaging facilities include MRI scanner, high intensity focused ultrasound, 64 slice PET scan -CT scan with cardiac capability, radiography, etc.Equipped with MR guided focused ultrasound surgery technology Super speciality level treatment solution in disciplines like neurology, nephrology, gynecology, cardiology, gastroenterology, plastic surgery, orthopedics, sports medicine and rehabilitation, etc."
+  },
+  {
+    "id": 6,
+    "name": "Nanavati Hospital",
+    "category": "350 beds available",
+    "priceCents": 17400,
+    "imageColor": "F00",
+    "imageUrl": "https://www.medifee.com/offers/thyrocare/img/dr-balabhai-nanavati-hospital.jpg",
+    "Address": "Nanavati HospitalS.V. Road, Vile Parle (West),Mumbai 400 056,",
+    "description": "Born out of a vision to provide healthcare to all strata of society, Nanavati Super Specialty Hospital, Mumbai opened its doors in 1950 and since has grown strength by strength into one of the most reputed tertiary care hospitals in India. Continuously striving for the best of healthcare at very affordable prices, this hospital uses funds from its trust and provides free medical assistance to the needy. It is equipped with a formidable strength of medical and allied professionals and the latest technology which helps in delivering quality care.",
+    "key": "Located in close proximity to Chhatrapati Shivaji International airport Inpatient capacity of 350 beds Treatment available in 55 medical specialities Round the clock emergency and accident services available Full time pharmacy and laboratory services Conducts health camps across the city and in remote areas of Maharashtra Imaging facilities include MRI scanner, high intensity focused ultrasound, 64 slice PET scan -CT scan with cardiac capability, radiography, etc.Equipped with MR guided focused ultrasound surgery technology Super speciality level treatment solution in disciplines like neurology, nephrology, gynecology, cardiology, gastroenterology, plastic surgery, orthopedics, sports medicine and rehabilitation, etc. Empanelled hospital for various PSUs and private companies"
+  },
+  {
+    "id": 7,
+    "name": "Fortis Hospital",
+    "category": "276 beds available",
+    "priceCents": 124000,
+    "imageColor": "F00",
+    "imageUrl": "https://www.medifee.com/offers/thyrocare/img/fortis-hospital.jpg",
+    "Address": "154/9, Bannerghatta Road,Opposite IIM-B, Bengaluru, Karnataka 560076.",
+    "description": "Fortis Hospital at Bannerghatta was established in 2007. Since then it has achieved trust of Bangalore residents along with neighboring parts of Tamil Nadu with the help of its impressive infrastructure. It has earned the ranks of being among the few top multi-specialties in Bangalore in current times.",
+    "key": "276 hospital beds Team of over 150 senior consultants practicing in this facility Treatment facilities available across 40 medical streams The doctors at Bannerghatta are credited in the introduction of custom fit knee replacement and HIFU technology for treatment of prostate cancer India Critical care department that is 24*7 functional The emergency and trauma care department is duly equipped with required life support systems and ACLS trained doctors  Oncology department has treatment facilities for managing different cancer types in adults and children Highly complex procedures like total knee replacement, trans-radial angioplasties etc. performed Sports medicine injuries and orthopedic ailments are managed by an expert team of physiotherapists, orthopedic surgeons and general physicians"
+  }
+]

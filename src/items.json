@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Lyrica",
+    "category": "pregabalin [ pre-GAB-a-lin ]",
+    "priceCents": 130000,
+    "imageColor": "F00",
+    "imageUrl": "https://www.pharmaceutical-technology.com/wp-content/uploads/sites/24/2018/11/1024px-Lyrica_150mg_box_in_Finland_20110618.jpg",
+    "description": "Lyrica was originally FDA approved as an anti-epileptic drug, also called an anticonvulsant. It works by slowing down impulses in the brain that cause seizures. Pregabalin also affects chemicals in the brain that send pain signals across the nervous system.Lyrica is used to treat pain caused by fibromyalgia, or nerve pain in people with diabetes (diabetic neuropathy), herpes zoster (post-herpetic neuralgia), or spinal cord injury."
+  },
+  {
+    "id": 2,
+    "name": "Ativan",
+    "category": "lorazepam (oral)",
+    "priceCents": 19900,
+    "imageColor": "00F",
+    "imageUrl": "https://drugabuse.com/wp-content/uploads/drugabuse-shutterstock186313949-white_pills_on_table-feature_image-lorazepam.jpg",
+    "description": "Ativan belongs to a group of drugs called benzodiazepines Ativan is a prescription medicine used to treat anxiety disorders.It is dangerous to purchase Ativan on the Internet or outside the United States. The sale and distribution of medicines outside the U.S. does not comply with safe-use regulations of the Food and Drug Administration (FDA). These medications may contain dangerous ingredients, or may not be distributed by a licensed pharmacy"
+  },
+
+  {
+    "id": 3,
+    "name": "Brilinta",
+    "category": "ticagrelor",
+    "priceCents": 247800,
+    "imageColor": "FF0",
+    "imageUrl": "https://4.imimg.com/data4/CC/GB/MY-10347735/brilinta-ticagrelor-500x500.jpg",
+    "description": "Brilinta prevents platelets in your blood from sticking together to form an unwanted blood clot that could block an artery.Brilinta is also used to lower your risk of blood clots if you have coronary artery disease (decreased blood flow to the heart) and have been treated with stents to open clogged arteries.This medicine is usually given together with low-dose aspirin. Carefully follow your doctor's dosing instructions. Using too much aspirin can make ticagrelor less effective."
+  },
+
+  {
+    "id": 4,
+    "name": "Ciprofloxacin",
+    "category": "ciprofloxacin (oral)",
+    "priceCents": 94900,
+    "imageColor": "F60",
+    "imageUrl": "https://cpimg.tistatic.com/03132964/b/5/Ciprofloxacin-500-MG-Tablet.jpg",
+    "description": "Ciprofloxacin is a fluoroquinolone (flor-o-KWIN-o-lone) antibiotic, it is used to treat different types of bacterial infections. It is also used to treat people who have been exposed to anthrax or certain types of plague. Ciprofloxacin extended-release is only approved for use in adults."
+  },
+  {
+    "id": 5,
+    "name": "Invokana",
+    "category": "canagliflozin",
+    "priceCents": 159000,
+    "imageColor": "0F0",
+    "imageUrl": "https://qtxasset.com/quartz/qcloud5/media/image/2016-06/invokana2-Copy.jpg?VersionId=zgRWnHKXiFojX.V7.385MExDO_2E0Mfa",
+    "description": "Invokana is an oral diabetes medicine that helps control blood sugar levels. Canagliflozin works by helping the kidneys get rid of glucose from your bloodstream.Invokana is used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus.Invokana is also used to lower the risk of death from heart attack, stroke, or heart failure in adults with type 2 diabetes who also have heart disease"
+  },
+  {
+    "id": 6,
+    "name": "Invokana",
+    "category": "canagliflozin",
+    "priceCents": 159000,
+    "imageColor": "0F0",
+    "imageUrl": "https://qtxasset.com/quartz/qcloud5/media/image/2016-06/invokana2-Copy.jpg?VersionId=zgRWnHKXiFojX.V7.385MExDO_2E0Mfa",
+    "description": "Invokana is an oral diabetes medicine that helps control blood sugar levels. Canagliflozin works by helping the kidneys get rid of glucose from your bloodstream.Invokana is used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus.Invokana is also used to lower the risk of death from heart attack, stroke, or heart failure in adults with type 2 diabetes who also have heart disease"
+  },
+  {
+    "id": 7,
+    "name": "Invokana",
+    "category": "canagliflozin",
+    "priceCents": 159000,
+    "imageColor": "0F0",
+    "imageUrl": "https://qtxasset.com/quartz/qcloud5/media/image/2016-06/invokana2-Copy.jpg?VersionId=zgRWnHKXiFojX.V7.385MExDO_2E0Mfa",
+    "description": "Invokana is an oral diabetes medicine that helps control blood sugar levels. Canagliflozin works by helping the kidneys get rid of glucose from your bloodstream.Invokana is used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus.Invokana is also used to lower the risk of death from heart attack, stroke, or heart failure in adults with type 2 diabetes who also have heart disease"
+  },
+  {
+    "id": 8,
+    "name": "Invokana",
+    "category": "canagliflozin",
+    "priceCents": 159000,
+    "imageColor": "0F0",
+    "imageUrl": "https://qtxasset.com/quartz/qcloud5/media/image/2016-06/invokana2-Copy.jpg?VersionId=zgRWnHKXiFojX.V7.385MExDO_2E0Mfa",
+    "description": "Invokana is an oral diabetes medicine that helps control blood sugar levels. Canagliflozin works by helping the kidneys get rid of glucose from your bloodstream.Invokana is used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus.Invokana is also used to lower the risk of death from heart attack, stroke, or heart failure in adults with type 2 diabetes who also have heart disease"
+  },
+  {
+    "id": 9,
+    "name": "Invokana",
+    "category": "canagliflozin",
+    "priceCents": 159000,
+    "imageColor": "0F0",
+    "imageUrl": "https://qtxasset.com/quartz/qcloud5/media/image/2016-06/invokana2-Copy.jpg?VersionId=zgRWnHKXiFojX.V7.385MExDO_2E0Mfa",
+    "description": "Invokana is an oral diabetes medicine that helps control blood sugar levels. Canagliflozin works by helping the kidneys get rid of glucose from your bloodstream.Invokana is used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus.Invokana is also used to lower the risk of death from heart attack, stroke, or heart failure in adults with type 2 diabetes who also have heart disease"
+  },
+  {
+    "id": 10,
+    "name": "Invokana",
+    "category": "canagliflozin",
+    "priceCents": 159000,
+    "imageColor": "0F0",
+    "imageUrl": "https://qtxasset.com/quartz/qcloud5/media/image/2016-06/invokana2-Copy.jpg?VersionId=zgRWnHKXiFojX.V7.385MExDO_2E0Mfa",
+    "description": "Invokana is an oral diabetes medicine that helps control blood sugar levels. Canagliflozin works by helping the kidneys get rid of glucose from your bloodstream.Invokana is used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus.Invokana is also used to lower the risk of death from heart attack, stroke, or heart failure in adults with type 2 diabetes who also have heart disease"
+  }
+]
