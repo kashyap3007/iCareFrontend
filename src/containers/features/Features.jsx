@@ -33,11 +33,11 @@ const featuresData = [
   },
   {
     title: "Add-item to cart",
-    text: "Add (the) item-name (item) to (the) cart. e.g:Add Realme 8 pro to cart / Add Realme 8 pro item to the cart / Add the Realme 8 pro to cart etc..",
+    text: "Add (the) item-name (item) to (the) cart. e.g:Add Paracetamol to cart ..",
   },
   {
     title: "Remove item from Cart",
-    text: "Remove (the) item-name (item) from (the) cart. e.g: Remove Apple iphone 13 from cart etc...",
+    text: "Remove (the) item-name (item) from (the) cart. e.g: Remove Paracetamol from cart etc...",
   },
   {
     title: "Purchase Items",

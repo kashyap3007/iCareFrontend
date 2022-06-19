@@ -3,20 +3,39 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import Signin from "../../auth/Sign";
 import Signup from "../../auth/Signup";
-import { isSignedIn, signOut } from "../../auth/helper";
+import { isAutheticated, signout } from "../../auth/helper";
 import "./navbar.css";
+import AddMeal from "../Addmeal";
+import Dashboard from "../Dashboard";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [showSigninModal, setShowSigninModal] = useState(false);
   const [showSignupModal, setShowSignupModal] = useState(false);
-  const [signedin, setIsSignedIn] = useState(isSignedIn());
-  console.log(signedin);
+  const [showAddMeal, setShowAddMeal] = useState(false);
+  const [showDashBoard, setShowDashBoard] = useState(false);
 
   return (
     <div className="gpt3__navbar">
-      <Signin open={showSigninModal} handleClose={setShowSigninModal} />
-      <Signup open={showSignupModal} handleClose={setShowSignupModal} />
+      {true && (
+        <Signin open={showSigninModal} handleClose={setShowSigninModal} />
+      )}
+      {true && (
+        <Signup open={showSignupModal} handleClose={setShowSignupModal} />
+      )}
+      {isAutheticated() && isAutheticated().user && (
+        <AddMeal
+          open={isAutheticated() && showAddMeal}
+          handleClose={setShowAddMeal}
+        />
+      )}
+      {isAutheticated() && isAutheticated().user && (
+        <Dashboard
+          open={isAutheticated() && showDashBoard}
+          handleClose={setShowDashBoard}
+        />
+      )}
+
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
           {/* <img src={logo} /> */}
@@ -39,18 +58,25 @@ const Navbar = () => {
           <p>
             <a href="#hospitals">Hospitals</a>
           </p>
-          <p>
-            <a href="#footer">Discussion</a>
-          </p>
 
           <p>
             <a href="#footer">Contact us</a>
           </p>
+          {isAutheticated() && (
+            <p onClick={(e) => setShowAddMeal((old) => !old)}>
+              <a>Add Meal</a>
+            </p>
+          )}
+          {isAutheticated() && (
+            <p onClick={(e) => setShowDashBoard((old) => !old)}>
+              <a>Profile</a>
+            </p>
+          )}
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        {signedin ? (
-          <button onClick={() => signOut(() => (window.location.href = "/"))}>
+        {isAutheticated() ? (
+          <button onClick={() => signout(() => (window.location.href = "/"))}>
             Sign out
           </button>
         ) : (
@@ -97,13 +123,10 @@ const Navbar = () => {
               <p>
                 <a href="#hospitals">Hospitals</a>
               </p>
-              <p>
-                <a href="#footer">Discussion</a>
-              </p>
             </div>
-            {signedin ? (
+            {isAutheticated() ? (
               <button
-                onClick={() => signOut(() => (window.location.href = "/"))}
+                onClick={() => signout(() => (window.location.href = "/"))}
               >
                 Sign out
               </button>
@@ -118,6 +141,16 @@ const Navbar = () => {
                 >
                   Sign up
                 </button>
+                {isAutheticated() && (
+                  <p onClick={(e) => setShowAddMeal((old) => !old)}>
+                    <a>Add Meal</a>
+                  </p>
+                )}
+                {isAutheticated() && (
+                  <p onClick={(e) => setShowDashBoard((old) => !old)}>
+                    <a>Profile</a>
+                  </p>
+                )}
               </div>
             )}
           </div>

@@ -4,52 +4,59 @@ import {useState} from "react"
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import {signin} from "./helper"
+import {signin,authenticate} from "./helper"
 import Message from "./message"
 import "./signup.css"
+import TextField from '@mui/material/TextField';
+
 
 const style = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 1000,
-  bgcolor: '#590547',
+  width: 600,
+  height : 500,
+  bgcolor: '#fff',
   borderRadius : "20px",
   boxShadow: 24,
   p: 4,
 };
 
 const Signin = ({open , handleClose}) => {
-	  const [values , setValues] = React.useState({email : "" , password : ""});
-	  const [error   ,setError] = useState("");
-	  const {email , password} = values;
-	  const [loading , setLoading] = useState(false);
-	  const handleChange = (event) => {
-	  	setValues({...values  , [event.target.name] : event.target.value });
-	  }
-	  const handleSignup = async () => {
-	  	console.log("INSIDE");
-	  	if(!email) {
-	  		setError("Email is required");
-	  		return;
-	  	}
-	  	if(!password || password.length < 6) {
-	  		setError("Password should be six characters long");
-	  		return;
-	  	}
-	  	setError("");
-	  	setLoading(true);
-	  	const data = await signin({email , password});
-	  	console.log(data);
-	  	setLoading(false);
-	  	if(data.error) {
-	  		setError(data.error);
-	  		return;
-	  	}
-		setValues({ password : "" , email : ""});
-		window.location.href = "/";
-	  }
+	  const [values, setValues] = useState({
+	    email: '',
+	    password: '',
+	    error: '',
+	    loading: false,
+	    didRedirect: false,
+	    success : false,
+  	});
+  	const { email, password, error, loading, didRedirect ,success} = values
+  	const handleChange = (name) => (event) => {
+    	setValues({ ...values, error: false, [name]: event.target.value })
+  	}
+  	const onSubmit = (event) => {
+  	    event.preventDefault()
+  	    setValues({ ...values, error: false, loading: true })
+  	    signin({ email, password })
+  	     .then((data) => {
+  	       if (data.error) {
+  	         setValues({ ...values, error: data.error, loading: false })
+  	       } else {
+  	         authenticate(data, () => {
+  	           setValues({
+  	             ...values,
+  	             success : "Sigin in successfully, Redirected to Home",
+  	             didRedirect: true
+  	           });
+  	           window.location.href = "/"
+  	         })
+  	       }
+  	     })
+  	    .catch(console.log('signin request failed'))
+  	 }
+	 
 	  return (
 	    <div>
 	      <Modal
@@ -65,6 +72,7 @@ const Signin = ({open , handleClose}) => {
 	          <section className="vh-50" >
 	            <div className="container h-80">
 	            <Message open = {error} message = {error} severity = {"error"}/>
+	            <Message open = {success} message = {success} severity = {"success"}/>
 	              <div className="row d-flex justify-content-center align-items-center h-100">
 	                <div className="col-lg-12 col-xl-11">
 	                  <div className="card text-black" style={{borderRadius: "25px"}}>
@@ -79,29 +87,41 @@ const Signin = ({open , handleClose}) => {
 
 	                            <div className="d-flex flex-row align-items-center mb-4">
 	                              <i className="fas fa-envelope fa-lg me-3 fa-fw"></i>
-	                              <div className="form-outline flex-fill mb-0">
-	                                <input type="email" id="form3Example3c" className="form-control bhag" value = {email} name = "email" onChange = {handleChange}/>
-	                                <label className="form-label lahsun"> Your Email</label>
+	                              <div className="form-outline flex-fill mb-0"style = {{marginBottom : "10px"}}>
+	                              	
+	                                <TextField
+	                                	label =" Your Email  :"
+                                    onChange={handleChange('email')}
+                                    value={email}
+                                    className='form-control'
+                                    type='email'
+                                    variant ="filled"
+                                  />
 	                              </div>
 	                            </div>
 
 	                            <div className="d-flex flex-row align-items-center mb-4">
 	                              <i className="fas fa-lock fa-lg me-3 fa-fw"></i>
-	                              <div className="form-outline flex-fill mb-0">
-	                                <input type="password" id="form3Example4c" className="form-control bsdk" value = {password} name = "password" onChange = {handleChange}/>
-	                                <label className="form-label laura" > Password</label>
+	                              <div className="form-outline flex-fill mb-0" style = {{marginBottom : "10px"}}>
+	                                <TextField
+	                                	label = " Password  : "
+                                    onChange={handleChange('password')}
+                                    value={password}
+                                    className='form-control'
+                                    type='password'
+                                  />
+	                                
 	                              </div>
 	                            </div>
 
-	                            <div className="form-check d-flex justify-content-center mb-5">
+	                            <div className="form-check d-flex justify-content-center mb-5" style = {{textAlign : "center"}}>
 	                              <input className="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
-	                              <label className="form-check-label laura" >
+	                              <label className="form-check-label laura" style = {{color : "black"}}>
 	                                I agree all statements in <a href="#!">Terms of service</a>
 	                              </label>
 	                            </div>
-
 	                            <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-	                              <button type="button" className="btn btn-primary btn-lg lahsun" onClick = {handleSignup}>Login</button>
+	                              <Button style = {{backgroundColor : "#ed7e15",border : "1px solid red",padding : "8px",borderRadius : "5px",  width : "70%" , marginTop : "20px"}} onClick={onSubmit} variant = "filled" >Login</Button>
 	                            </div>
 
 	                          </form>
