@@ -1,3 +1,28 @@
+## Screenshots
+
+![Navbar](https://user-images.githubusercontent.com/51224447/174486737-ceb891a8-7330-4a41-9df7-bce1a042ed20.png)
+
+![Commands](https://user-images.githubusercontent.com/51224447/174486867-a1217d15-b1a9-40b0-812b-02a38f81b666.png)
+
+![Hospital](https://user-images.githubusercontent.com/51224447/174486871-4f5b9a40-407b-4e7e-9162-75a22d7a1dc0.png)
+
+![Medicines](https://user-images.githubusercontent.com/51224447/174486879-57795314-aeba-44ae-a18c-e1209b9d0595.png)
+
+![About](https://user-images.githubusercontent.com/51224447/174487076-982e13aa-f87b-41e2-8a41-42a732e5fb2a.png)
+
+![Login](https://user-images.githubusercontent.com/51224447/174486885-be877e7d-a25d-49e6-90ee-c67413552375.png)
+
+![Calorimeter](https://user-images.githubusercontent.com/51224447/174486775-787cdbbb-6e27-4f4c-8703-9afc86a45c6e.png)
+
+![Calorie Graph](https://user-images.githubusercontent.com/51224447/174486785-9b4dbfc6-2520-4134-9ec5-57effa8d81e3.png)
+
+![CalorieChart](https://user-images.githubusercontent.com/51224447/174486794-139c246d-f74b-4259-856e-2e70b0c5023d.png)
+
+![Chart)](https://user-images.githubusercontent.com/51224447/174486818-201bc6c2-390a-4fd5-9fad-98935a7bdd5d.png)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
