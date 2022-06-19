@@ -65,6 +65,18 @@ Checkout / (Purchase-items) (from) (Cart) e.g: Checkout
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-raj-78b095189/)
 
+# Alan AI: In-app voice assistant SDK for Web
+
+[Alan Platform](https://alan.app/) • [Alan Studio](https://studio.alan.app/register) • [Docs](https://alan.app/docs) • [FAQ](https://alan.app/docs/usage/additional/faq) •
+[Blog](https://alan.app/blog/) • [Twitter](https://twitter.com/alanvoiceai)
+
+[![npm](https://img.shields.io/npm/v/@alan-ai/alan-sdk-web.svg)](https://www.npmjs.com/package/@alan-ai/alan-sdk-web)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/alan-ai/alan-sdk-web)](https://github.com/alan-ai/alan-sdk-web/releases)
+[![CircleCI](https://circleci.com/gh/alan-ai/alan-sdk-web.svg?style=shield)](https://circleci.com/gh/alan-ai/alan-sdk-web)
+
+## Alan is a Voice AI Platform
+
+Alan is a conversational voice AI platform that lets you create an intelligent voice assistant for your app. It offers all necessary tools to design, embed and host your voice solutions:
 
 # Getting Started with Create React App
 
