@@ -1,3 +1,45 @@
+## 🛠 Features
+An ecommerce store  that allows the user to buy medicines.
+
+Powered by Alan AI, a sophisticated AI assistant with the ability to understand speech. The user can use speech to order their prescription, providing an easy and unique experience. User can use its Voice commands to get details of any medicine.
+
+ A directory again powered by Alan AI that allows the users to get details about Hospital and Medical centres near them.
+ 
+ A personalised health and fitness section that allows the users to keep a check of the number of calories they consume and compare the daily usage on graph.
+
+# Voice Commands
+
+## 🥷 Medicine Details
+Give me (the|) (details|detail) of (ITEM_NAME) . e.g: Give me the detail of Lyrica
+
+## 🥷 Hospital Details
+Give me (the|) (details|detail) of $(HOSPITAL_NAME) . e.g: Give me the detail of Apollo hospital
+
+## 🥷 Available Beds
+How many beds (are|) (available|) at $(HOSPITAL_NAME). e.g: How many beds are available /are at PMCH
+
+## 🥷 Address
+Tell me (the|) Address of $(HOSPITAL_NAME) e.g: Tell me Adress of Nanavati Hospital.
+
+## 🥷 Special / Key Features
+what are (the|) (salient|special|key|) features of $(HOSPITAL_NAME) e.g: What are the key features of Indraprastha Hospital
+
+## 🥷 Open-Cart
+open the cart / view the cart / check the cart / (open/check/view) cart
+
+## 🥷 Close-cart
+close the cart / close cart
+
+## 🥷 Add-item to cart
+Add (the) item-name (item) to (the) cart. e.g:Add Paracetamol to cart ..
+
+## 🥷 Remove item from Cart
+Remove (the) item-name (item) from (the) cart. e.g: Remove Paracetamol from cart etc...
+
+## 🥷 Purchase Items
+Checkout / (Purchase-items) (from) (Cart) e.g: Checkout
+
+
 ## Screenshots
 
 ![Navbar](https://user-images.githubusercontent.com/51224447/174486737-ceb891a8-7330-4a41-9df7-bce1a042ed20.png)
