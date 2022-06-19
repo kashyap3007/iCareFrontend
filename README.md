@@ -20,7 +20,8 @@
 
 ![Chart)](https://user-images.githubusercontent.com/51224447/174486818-201bc6c2-390a-4fd5-9fad-98935a7bdd5d.png)
 
-
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-raj-78b095189/)
 
 
 # Getting Started with Create React App
