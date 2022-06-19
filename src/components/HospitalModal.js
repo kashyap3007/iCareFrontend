@@ -116,6 +116,9 @@ export default function HospitalModal({ item, open, closeModal }) {
                 </span>
               </div>
               <p className="leading-relaxed max-w-lg">{item.description}</p>
+              <h2 className="leading-relaxed max-w-lg text-yellow-400">
+                {item.Address}
+              </h2>
               <div className="flex mt-4">
                 <span className="title-font font-medium text-2xl text-gray-900">
                   {formatCurrency(item.priceCents)}

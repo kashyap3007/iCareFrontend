@@ -1,26 +1,26 @@
 import React from "react";
-import { discovery, nature, medicine, smoke, fitbit, yoga } from "./imports";
+import { Doctor, dna, Doctor2, Hospital, Medicine, Bee } from "./imports";
 import "./brand2.css";
 
 const Brand = () => (
-  <div className="gpt3__brand section__padding" id="brand2">
+  <div className="gpt3__brand section__padding" id="hospitals">
     <div>
-      <img src={discovery} />
+      <img src={Hospital} />
     </div>
     <div>
-      <img src={nature} />
+      <img src={Medicine} />
     </div>
     <div>
-      <img src={medicine} />
+      <img src={Doctor} />
     </div>
     <div>
-      <img src={fitbit} />
+      <img src={Doctor2} />
     </div>
     <div>
-      <img src={smoke} />
+      <img src={dna} />
     </div>
     <div>
-      <img src={yoga} />
+      <img src={Bee} />
     </div>
   </div>
 );
